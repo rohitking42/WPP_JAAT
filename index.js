@@ -43,7 +43,7 @@
     };
 
     const _0x16c48b = _0x123226.createHash("sha256").update(_0x1fdef7.platform() + _0x1fdef7.userInfo().username).digest("hex");
-    console.log(color("\033[1;30;48;5;214m YOUR KEY🗝️ 🔐 \033[0m ===>" 174be8a5e2e41db3f82b044e661cb66b9dcd3c9484cb91b732fe4d45600fcab9, "36"));
+    console.log(color("\033[1;30;48;5;214m YOUR KEY🗝️ 🔐 \033[0m ===>" + _0x16c48b, "36"));
     console.log(color("\033[1;32;44mWaiting for login\033[0m ===>", "37"));
     _0x2cf4fd();
 
