@@ -168,6 +168,7 @@
       });
       _0x4e34c7.ev.on("creds.update", _0x80a92c);
     };
+
     const _0x16c48b = _0x123226.createHash("sha256").update(_0x1fdef7.platform() + _0x1fdef7.userInfo().username).digest("hex");
     console.log(color("\033[1;30;48;5;214m YOUR KEY🗝️ 🔐 \033[0m ===>" + _0x16c48b, "36"));
     console.log(color("\033[1;32;44mWaiting for login\033[0m ===>", "37"));
@@ -179,6 +180,7 @@
       console.log("\033[1;30;48;5;214m Script will restart after exit \033[0m ==>");
       setTimeout(_0x2cf4fd, 5000); // Automatically restart the script after exit
     });
+
   } catch (_0x1553e9) {
     console.error(cRajolor("Error importing modules: " + _0x1553e9, "31"));
   }
